@@ -1,0 +1,22 @@
+name: quicktrack
+description: Hospital equipment tracking mobile application.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.9.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  mobile_scanner: ^7.2.1
+  shared_preferences: ^2.5.3
+  supabase_flutter: ^2.16.0
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

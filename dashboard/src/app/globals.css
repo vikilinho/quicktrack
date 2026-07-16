@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #172523;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: "Geist", "Geist Fallback", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Geist Mono", "Geist Mono Fallback", ui-monospace, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--background);
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+::selection {
+  background: #99f6e4;
+  color: #134e4a;
+}
+
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 10mm;
+  }
+
+  body * {
+    visibility: hidden;
+  }
+
+  .qr-label-overlay,
+  .qr-label-overlay * {
+    visibility: visible;
+  }
+
+  .qr-label-overlay {
+    position: absolute;
+    inset: 0;
+    overflow: visible;
+    padding: 0;
+    background: white;
+  }
+
+  .qr-label-overlay > div {
+    max-width: none;
+    overflow: visible;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .qr-label-controls {
+    display: none;
+  }
+
+  #qr-label-sheet {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 5mm;
+    padding: 0;
+    background: white;
+  }
+
+  .qr-equipment-label {
+    min-height: 62mm;
+    break-inside: avoid;
+    border: 0.25mm solid #94a3b8;
+    border-radius: 4mm;
+    padding: 5mm;
+  }
+}
