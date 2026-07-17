@@ -66,7 +66,7 @@ class _ScannerScreenState extends State<ScannerScreen> {
     if (!_assetCodePattern.hasMatch(assetNumber)) {
       _showNotice(
         const _ScanNotice.error(
-          'That isn’t a QuickTrack equipment label. Try another code.',
+          'That isn’t a WardFind equipment label. Try another code.',
         ),
       );
       await _resumeAfterNotice();
@@ -148,7 +148,7 @@ class _ScannerScreenState extends State<ScannerScreen> {
                       child: Padding(
                         padding: const EdgeInsets.symmetric(vertical: 18),
                         child: Text(
-                          'QuickTrack',
+                          'WardFind',
                           textAlign: TextAlign.center,
                           style: Theme.of(context).textTheme.titleLarge
                               ?.copyWith(color: const Color(0xFF004D46)),

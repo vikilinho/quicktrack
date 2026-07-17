@@ -32,7 +32,7 @@ export function SetPasswordForm({ onComplete }: SetPasswordFormProps) {
     setError(null);
     const result = await client.auth.updateUser({
       password,
-      data: { quicktrack_password_set: true },
+      data: { wardfind_password_set: true },
     });
     if (result.error) {
       setError(result.error.message);
@@ -56,7 +56,7 @@ export function SetPasswordForm({ onComplete }: SetPasswordFormProps) {
           Choose your password
         </h1>
         <p className="mt-2 text-sm leading-6 text-slate-500">
-          Complete your invited QuickTrack dashboard account.
+          Complete your invited WardFind dashboard account.
         </p>
 
         <form onSubmit={handleSubmit} className="mt-8 space-y-5">

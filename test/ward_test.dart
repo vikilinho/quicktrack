@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:quicktrack/models/ward.dart';
+import 'package:wardfind/models/ward.dart';
 
 void main() {
   test('creates a ward from a Supabase response', () {

@@ -65,7 +65,7 @@ export function QrLabelSheet({ equipment, onClose }: QrLabelSheetProps) {
               />
               <div className="min-w-0">
                 <p className="text-xs font-semibold uppercase tracking-[0.15em] text-teal-700">
-                  QuickTrack
+                  WardFind
                 </p>
                 <h3 className="mt-3 text-xl font-semibold leading-tight text-slate-950">
                   {item.name}

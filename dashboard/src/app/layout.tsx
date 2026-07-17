@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "QuickTrack | Equipment Dashboard",
+  title: "WardFind | Equipment Dashboard",
   description: "Live hospital equipment location and status tracking.",
 };
 

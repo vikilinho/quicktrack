@@ -58,7 +58,7 @@ export function SignInForm() {
           <Activity aria-hidden="true" size={25} />
         </span>
         <p className="mt-6 text-xs font-semibold uppercase tracking-[0.14em] text-teal-700">
-          QuickTrack dashboard
+          WardFind dashboard
         </p>
         <h1 className="mt-2 text-3xl font-semibold tracking-tight text-slate-950">
           {isResetMode ? "Reset your password" : "Sign in to continue"}

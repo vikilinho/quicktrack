@@ -16,7 +16,7 @@ Future<void> main() async {
     url: AppConfig.supabaseUrl,
     publishableKey: AppConfig.supabasePublishableKey,
   );
-  runApp(const QuickTrackApp());
+  runApp(const WardFindApp());
 }
 
 class _ConfigurationErrorApp extends StatelessWidget {
@@ -32,7 +32,7 @@ class _ConfigurationErrorApp extends StatelessWidget {
             child: Padding(
               padding: EdgeInsets.all(24),
               child: Text(
-                'QuickTrack is not configured. Start the app with SUPABASE_URL and SUPABASE_PUBLISHABLE_KEY dart defines.',
+                'WardFind is not configured. Start the app with SUPABASE_URL and SUPABASE_PUBLISHABLE_KEY dart defines.',
                 textAlign: TextAlign.center,
               ),
             ),

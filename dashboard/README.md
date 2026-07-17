@@ -1,4 +1,4 @@
-# QuickTrack dashboard
+# WardFind dashboard
 
 Next.js App Router dashboard for live hospital equipment tracking.
 

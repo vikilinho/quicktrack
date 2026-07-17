@@ -30,6 +30,7 @@ export function AuthGate() {
           authFlow === "recovery" ||
           Boolean(
             data.session?.user.invited_at &&
+              data.session.user.user_metadata.wardfind_password_set !== true &&
               data.session.user.user_metadata.quicktrack_password_set !== true,
           ),
       );

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:quicktrack/models/equipment_details.dart';
-import 'package:quicktrack/models/ward.dart';
-import 'package:quicktrack/screens/equipment_move_screen.dart';
-import 'package:quicktrack/services/equipment_service.dart';
-import 'package:quicktrack/services/ward_preferences.dart';
-import 'package:quicktrack/theme/app_theme.dart';
+import 'package:wardfind/models/equipment_details.dart';
+import 'package:wardfind/models/ward.dart';
+import 'package:wardfind/screens/equipment_move_screen.dart';
+import 'package:wardfind/services/equipment_service.dart';
+import 'package:wardfind/services/ward_preferences.dart';
+import 'package:wardfind/theme/app_theme.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 

@@ -1,6 +1,6 @@
-# QuickTrack
+# WardFind
 
-QuickTrack is a hospital equipment tracking system with a Flutter QR scanner,
+WardFind is a hospital equipment tracking system with a Flutter QR scanner,
 a Supabase backend, and a Next.js operations dashboard.
 
 The scanner does not require a user account. It validates an equipment QR code,
@@ -28,7 +28,7 @@ The iOS project already includes this camera permission description in
 
 ```xml
 <key>NSCameraUsageDescription</key>
-<string>QuickTrack uses the camera to scan equipment QR codes.</string>
+<string>WardFind uses the camera to scan equipment QR codes.</string>
 ```
 
 Run with the Supabase project URL and publishable key (the legacy anon key also

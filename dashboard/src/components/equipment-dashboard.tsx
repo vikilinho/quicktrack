@@ -35,7 +35,7 @@ export function EquipmentDashboard({
             <span className="grid size-9 place-items-center rounded-full bg-teal-700 text-white">
               <Activity aria-hidden="true" size={19} />
             </span>
-            <p className="text-lg font-medium tracking-[-0.02em] text-slate-950">QuickTrack</p>
+            <p className="text-lg font-medium tracking-[-0.02em] text-slate-950">WardFind</p>
           </div>
           <div className="flex items-center gap-3">
             <p className="hidden text-sm text-slate-600 sm:block">{userEmail}</p>
